@@ -142,4 +142,3 @@ curl -X DELETE http://localhost:8080/products/3
 Ce projet constitue une base solide pour évoluer vers une API plus complète :  
 gestion utilisateurs, authentification, interface frontend, persistance avancée, etc.
 
----
