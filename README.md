@@ -63,7 +63,7 @@ Ce projet a été réalisé dans le cadre d’un TP individuel lors de ma format
 ### 1. Cloner le projet
 
 ```
-git clone <url-du-projet>
+git clone <https://github.com/Quentin384/SPRINGBOOT-API>
 cd product-api
 ```
 
