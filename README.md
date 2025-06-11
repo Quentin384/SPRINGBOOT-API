@@ -143,5 +143,3 @@ Ce projet constitue une base solide pour évoluer vers une API plus complète :
 gestion utilisateurs, authentification, interface frontend, persistance avancée, etc.
 
 ---
-
-Si tu souhaites que je t’aide à créer une documentation Swagger ou une collection Postman, n’hésite pas à demander.
