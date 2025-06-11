@@ -1,4 +1,4 @@
-package com.example.productapi.controller;
+package com.example.product_api.controller;
 
 import java.util.List;
 import java.util.stream.Collectors;
@@ -15,8 +15,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.server.ResponseStatusException;
 
-import com.example.productapi.model.Product;
-import com.example.productapi.repository.ProductRepository;
+import com.example.product_api.model.Product;
+import com.example.product_api.repository.ProductRepository;
 
 @RestController
 @RequestMapping("/products")

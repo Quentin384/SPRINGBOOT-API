@@ -1,4 +1,4 @@
-package com.example.productapi.model;
+package com.example.product_api.model;
 
 import java.util.ArrayList;
 import java.util.List;
