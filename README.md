@@ -1,3 +1,4 @@
+
 # 📦 Product API – API REST de gestion de produits en Java Spring Boot
 
 Product API est une application backend développée avec Spring Boot permettant la gestion simple de produits, avec notamment la création, mise à jour, suppression, consultation, et la création de bundles (groupes de produits combinés).  
