@@ -62,28 +62,22 @@ Ce projet a été réalisé dans le cadre d’un TP individuel lors de ma format
 
 ### 1. Cloner le projet
 
-<!--
 ```
 git clone <url-du-projet>
 cd product-api
 ```
--->
 
 ### 2. Compiler et lancer les tests
 
-<!--
 ```
 mvn clean test
 ```
--->
 
 ### 3. Lancer l’application
 
-<!--
 ```
 mvn spring-boot:run
 ```
--->
 
 L’application est accessible sur [http://localhost:8080](http://localhost:8080).
 
@@ -93,7 +87,6 @@ L’application est accessible sur [http://localhost:8080](http://localhost:8080
 
 ### Créer les produits "Clavier", "Écran", "Souris"
 
-<!--
 ```
 curl -X POST http://localhost:8080/products \
      -H "Content-Type: application/json" \
@@ -107,43 +100,34 @@ curl -X POST http://localhost:8080/products \
      -H "Content-Type: application/json" \
      -d '{"name":"Souris","price":25.0}'
 ```
--->
 
 ### Lister tous les produits
 
-<!--
 ```
 curl -X GET http://localhost:8080/products
 ```
--->
 
 ### Créer un bundle avec les IDs des produits (remplacer par les vrais IDs)
 
-<!--
 ```
 curl -X POST http://localhost:8080/products/bundle \
      -H "Content-Type: application/json" \
      -d '[1, 2, 3]'
 ```
--->
 
 ### Mettre à jour un produit (exemple pour ID=1)
 
-<!--
 ```
 curl -X PUT http://localhost:8080/products/1 \
      -H "Content-Type: application/json" \
      -d '{"name":"Clavier Mécanique","price":60.0}'
 ```
--->
 
 ### Supprimer un produit (exemple pour ID=3)
 
-<!--
 ```
 curl -X DELETE http://localhost:8080/products/3
 ```
--->
 
 ---
 
