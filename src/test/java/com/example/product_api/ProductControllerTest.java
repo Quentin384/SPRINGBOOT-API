@@ -1,4 +1,4 @@
-package com.example.productapi;
+package com.example.product_api;
 
 import java.util.List;
 
@@ -18,8 +18,8 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.example.productapi.model.Product;
-import com.example.productapi.repository.ProductRepository;
+import com.example.product_api.model.Product;
+import com.example.product_api.repository.ProductRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 @SpringBootTest
