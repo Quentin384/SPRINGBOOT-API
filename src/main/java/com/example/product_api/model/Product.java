@@ -29,7 +29,17 @@ public class Product {
     )
     private List<Product> sources = new ArrayList<>();
 
-    // Constructeurs, getters et setters
+    // ✅ Constructeur par défaut requis par JPA
+    public Product() {
+    }
+
+    // ✅ Constructeur pratique pour les tests
+    public Product(String name, double price) {
+        this.name = name;
+        this.price = price;
+    }
+
+    // Getters et setters
 
     public Long getId() {
         return id;
